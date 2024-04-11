@@ -3,7 +3,6 @@ package me.helium.floaty;
 import me.helium.floaty.modules.CUMModule;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
-import meteordevelopment.meteorclient.commands.Commands;
 import meteordevelopment.meteorclient.systems.hud.HudGroup;
 import meteordevelopment.meteorclient.systems.modules.Category;
 import meteordevelopment.meteorclient.systems.modules.Modules;
@@ -33,6 +32,6 @@ public class Addon extends MeteorAddon {
 
     @Override
     public String getPackage() {
-        return "com.example.addon";
+        return "me.helium.floaty";
     }
 }
